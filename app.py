@@ -22,6 +22,8 @@ episodes = {
 }
 
 st.title("AI-Driven Narrative Demo: Ramayan Storytelling with Art & Voice")
+st.title("<Arts by - Dr Kedar Dicholkar>")
+
 
 choice = st.selectbox("Choose a Ramayan episode:", list(episodes.keys()))
 story_text = episodes[choice]["story"]
